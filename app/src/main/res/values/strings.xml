@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="description1">Welcome to MedRemind App !</string>
+    <string name="description2">Never miss a dose or accidentally overdose again.</string>
+    <string name="inputText1">Enter something here</string>
+    <string name="AddTextBtn">Add</string>
+    <string name="UpdateTextBtn">Update</string>
+</resources>

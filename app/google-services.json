@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "244233317805",
+    "firebase_url": "https://medremind-661ac-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "medremind-661ac",
+    "storage_bucket": "medremind-661ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244233317805:android:db674545f2d857e3fd8524",
+        "android_client_info": {
+          "package_name": "com.example.medremind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244233317805-mcdctl1g68bq5amgmd6ug19mhfgavobl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRNFdWOBrFSDwjo2BQ0Ymv4HZOpdroWtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244233317805-mcdctl1g68bq5amgmd6ug19mhfgavobl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244233317805:android:14f74070a8c126d9fd8524",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244233317805-mcdctl1g68bq5amgmd6ug19mhfgavobl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRNFdWOBrFSDwjo2BQ0Ymv4HZOpdroWtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244233317805-mcdctl1g68bq5amgmd6ug19mhfgavobl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
