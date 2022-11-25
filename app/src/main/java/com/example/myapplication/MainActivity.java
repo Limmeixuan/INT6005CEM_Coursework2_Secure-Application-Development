@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
         alarmManager.cancel(pendingIntent);
 
-        Toast.makeText(this, "Your alarm has been cancelled.", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Your reminder has been cancelled.", Toast.LENGTH_SHORT).show();
     }
 
     private void setReminder() {
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
         alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(),
                 AlarmManager.INTERVAL_DAY, pendingIntent);
 
-        Toast.makeText(this, "Your alarm has been successfully set.", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Your reminder has been successfully set.", Toast.LENGTH_SHORT).show();
     }
 
     private void displayTimePicker() {
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                 .setTimeFormat(TimeFormat.CLOCK_12H)
                 .setHour(12)
                 .setMinute(0)
-                .setTitleText("Select Your Alarm Time")
+                .setTitleText("Select Your Reminder Time")
                 .build();
 
         timePicker.show(getSupportFragmentManager(), "MedRemind");
