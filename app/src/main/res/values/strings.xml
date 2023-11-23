@@ -5,4 +5,6 @@
     <string name="inputText1">Enter something here</string>
     <string name="AddTextBtn">Add</string>
     <string name="UpdateTextBtn">Update</string>
+    <string name="forgot">Please enter the email address associated with your account.</string>
+    <string name="change">Please free to change your password.</string>
 </resources>

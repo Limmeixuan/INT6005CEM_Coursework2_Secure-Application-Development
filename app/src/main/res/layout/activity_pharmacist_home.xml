@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PharmacistHomeActivity">
+
+    <TextView
+        android:id="@+id/welcomeWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="42dp"
+        android:text="@string/description1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/welcomeWord"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/dark_blue"
+        android:src="@drawable/baseline_add_24" />
+
+    <!--Recycler View - show medicine-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/medicineRv"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@+id/welcomeWord"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/row_medicine"/>
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="353dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/dark_blue"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</RelativeLayout>

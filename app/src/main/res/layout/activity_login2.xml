@@ -54,7 +54,7 @@
         app:layout_constraintTop_toBottomOf="@+id/loginTitle" />
 
     <EditText
-        android:id="@+id/emailAddress"
+        android:id="@+id/emailEt"
         android:layout_width="350dp"
         android:layout_height="57dp"
         android:layout_marginTop="20dp"
@@ -67,7 +67,7 @@
         app:layout_constraintTop_toBottomOf="@+id/loginDescription" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/passwordEt"
         android:layout_width="350dp"
         android:layout_height="47dp"
         android:layout_marginTop="20dp"
@@ -79,7 +79,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/white_background"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/emailEt" />
 
     <Button
         android:id="@+id/loginBtn"
@@ -93,7 +93,7 @@
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
+        app:layout_constraintTop_toBottomOf="@+id/passwordEt" />
 
     <TextView
         android:id="@+id/textView"
@@ -122,6 +122,22 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/white_background"
+        app:layout_constraintStart_toStartOf="@+id/white_background"
+        app:layout_constraintTop_toTopOf="@+id/white_background" />
+
+    <TextView
+        android:id="@+id/forgotTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="472dp"
+        android:layout_marginEnd="140dp"
+        android:text="Forgot Password"
+        android:textColor="@color/red"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/white_background"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="@+id/white_background"
         app:layout_constraintTop_toTopOf="@+id/white_background" />
 
